@@ -1,6 +1,9 @@
+import 'core-js/stable';
+import 'react-app-polyfill/ie11'; // For IE 11 support
+import 'react-app-polyfill/stable'; // For IE 11 support
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
